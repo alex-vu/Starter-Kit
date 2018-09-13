@@ -1,17 +1,9 @@
-/* 
-    BACKGROUND COLOR
-*/
-
+/* background */
 $darkblack: #0E0E12;
 $darkgrey: #383434;
 $white: #FFFFFF;
 
-/* 
-    BUTTON 
-    LINKS
-    BORDERS
-*/
-
+/* buttons */
 $aqua: #42E98F;
 $lightgreen: #6BEC3E;
 $green: #3FC610;
@@ -19,3 +11,15 @@ $purple: #8B42E9;
 $darkpurple: #232635;
 $blue: #425DE9;
 $red: #E94242;
+
+/* link */
+$navlink: #868686;
+$navlink-hover: rgba(255, 255, 255, 0.87);
+
+/* font size */
+$hero-title: 5rem;
+$homepage-subtitle: 2rem;
+
+/* Login/Register */
+$form-instruction: #E0E0E0;
+$form-line: #3F3F3F;

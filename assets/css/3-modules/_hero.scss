@@ -1,0 +1,59 @@
+/***********************************
+    
+               HERO
+
+***********************************/
+
+#hero {
+    // background-image: url('/assets/img/hero_01.jpg');
+    // background-repeat: no-repeat;
+    // background-position: center;
+    // background-size: cover; 
+    // height: 580px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 6.25rem;
+}
+
+.hero-content {
+    transform: translateY(-50%);
+}
+
+.hero-title {
+    h1 {
+        font-size: $hero-title;
+        color: $lightgreen;
+        text-transform: uppercase;
+    }
+}
+
+.hero-info {
+    .hero-genre,
+    .hero-ratings {
+        display: inline-block;
+        margin-right: 1rem;
+    }
+
+    .hero-genre p,
+    .hero-ratings p {
+        color: #444444;
+
+        span {
+            color: #787878;
+        }
+    }
+}
+
+.hero-info, 
+.hero-description {
+    margin-left: 0.5rem;
+}
+
+.hero-description {
+    margin-top: 2rem;
+    
+    p {
+        color: $white;
+        font-weight: bold;
+    }
+}

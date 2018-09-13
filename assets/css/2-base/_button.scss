@@ -1,0 +1,40 @@
+/***********************************
+    
+               BUTTON
+
+***********************************/
+
+button {
+    border: 0;
+    border-radius: 0;
+    outline: none;
+}
+
+#btn-green {
+    // padding: 1.5625rem 3.125rem;
+    background-color: $green;
+    color: $white;
+    border-radius: 0;
+    border: 0;
+    margin-top: 3.2rem;
+}
+
+#btn-blue {
+    background-color: $blue;
+    color: $white;
+    border-radius: 0;
+    border: 0;
+}
+
+#btn-green,
+#btn-blue {
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+
+    &:hover {
+        background-color: #1d2125;
+        color: white;
+        box-shadow: 0 5px 50px rgba(0,0,0,0.3);
+    } 
+}
+
